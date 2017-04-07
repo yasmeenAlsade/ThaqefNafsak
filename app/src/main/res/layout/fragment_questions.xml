@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.yasmeen.thaqefnafsak.InfoFragment"
+    android:background="@android:color/white"
+    >
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:id="@+id/fragmentText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="yasmeen alsade"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimary"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="87dp" />
+
+    <RadioGroup
+        android:id="@+id/radios"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="90dp"
+        android:layout_marginTop="200dp"
+        android:inputType="text"
+        android:orientation="vertical" >
+
+        <RadioButton
+            android:id="@+id/first"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:drawablePadding="20dp"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:text="الكلب"
+            android:textSize="20dip"
+            android:textStyle="bold"
+            android:textColor="#066B1F"/>
+
+        <RadioButton
+            android:id="@+id/second"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:drawablePadding="20dp"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:text="الهرة"
+            android:textSize="20dip"
+            android:textColor="#066B1F"
+            android:textStyle="bold"/>
+
+        <RadioButton
+            android:id="@+id/third"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:drawablePadding="20dp"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:text="الهرة"
+            android:textSize="20dip"
+            android:textColor="#066B1F"
+            android:textStyle="bold"/>
+        <RadioButton
+            android:id="@+id/fourth"
+            android:button="@null"
+            android:drawableRight="@android:drawable/btn_radio"
+            android:drawablePadding="20dp"
+            android:layout_width="200dip"
+            android:layout_height="wrap_content"
+            android:text="الهرة"
+            android:textSize="20dip"
+            android:textColor="#066B1F"
+            android:textStyle="bold"/>
+    </RadioGroup>
+
+</RelativeLayout>
